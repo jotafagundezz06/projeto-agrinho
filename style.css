@@ -46,15 +46,83 @@ header{
 }
 .text1{
     text-align: center;
-    padding: 30px;
+    padding-top: 5%;
     font-size: 36px;
 }
 
 .cards{
     display: flex;
     justify-content: space-around;
+    margin: 7% 0%;
 }
 
 .card1{
     background-color: var(--cor-dois);
+    width: 401px;
+    height: 554px;
+    border-radius: 3%;
+}
+
+.imgCard1{
+    padding: 5.5%;
+}
+
+.tituloCard1{
+    color: var(--cor-tres);
+    padding-left: 5%;
+}
+
+.pCard1{
+    color: white;
+    padding: 5% 5% 8% 5%;
+}
+.pCard11{
+    color: white;
+    padding-bottom: 15%;
+}
+
+.botaocard1{
+    color: white;
+    border-radius: 10em;
+    background-color: var(--cor-um);
+    padding: 1em;
+    margin: 27%;
+    text-decoration: none;
+}
+.sbronos{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% 7%;
+}
+.sobre-nos{
+    background-color: #005C53;
+    display: inline-flex;
+    border-radius: 2em;
+}
+.sos{
+    padding: 5% 5%;
+    font-size: 40px;
+    color: var(--cor-tres);
+}
+.txtsbnos{
+    font-size: 24px;
+    padding: 5%;
+    color: white;
+}
+.rodape{
+    background-color: #042940;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.imgs{
+    padding: 2%;
+}
+.informacoes{
+    display: inline-flex;
+    margin: 2%;
+}
+.inf{
+    padding: 1em;
+    color: white;
 }
